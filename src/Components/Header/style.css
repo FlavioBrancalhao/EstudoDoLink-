@@ -1,0 +1,26 @@
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    
+
+}
+header a{
+    color: #fff;
+    font-size: 1.2em;
+   
+    
+}
+header a + a{
+    margin-left: 10px ;
+    
+
+}
+header a:nth-child(3){
+    margin-right: 50px;
+}
